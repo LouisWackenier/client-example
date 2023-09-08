@@ -1,6 +1,3 @@
-//REACT
-import React from 'react';
-
 //COMPONENTS
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
