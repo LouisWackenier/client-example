@@ -5,6 +5,7 @@ const NavbarContainer = styled.div`
      display: flex;
      align-items: center;
      justify-content: center;
+     background-color: rgba(0, 0, 0, 0); /* Set a transparent background color */
 `;
 
 const NavbarButton = styled.div`
@@ -13,6 +14,7 @@ const NavbarButton = styled.div`
         width: 100px;
         font-size: 20px;
         cursor: pointer;
+        background-color: rgba(0, 0, 0, 0); /* Set a transparent background color */
 
         &:hover {
        text-decoration: underline;

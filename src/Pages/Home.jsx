@@ -1,8 +1,26 @@
-//STYLED COMPONENTS
-import  styled  from 'styled-components';
+// STYLED COMPONENTS
+import styled from 'styled-components';
+
+//COMPONENTS
+import Navbar from '../Components/Navbar';
+
+import imgBackground from '../assets/Background_Image.png';
 
 const Section = styled.div`
-    height: 100%;
+  height: 100vh; /* Use 100vh to make sure it covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top of the container */
+`;
+
+const BackgroundImageContainer = styled.div`
+    flex: 1; /* Expand to fill the remaining vertical space */
+    background-image: url(${imgBackground});
+    background-size: cover; /* Adjust the image size to cover the container */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top of the container */
 `;
 
 const Title = styled.div`
@@ -10,6 +28,7 @@ const Title = styled.div`
      margin-top: 15%;
      justify-content: center;
      align-items: center;
+     background-color: rgba(0, 0, 0, 0); /* Set a transparent background color */
      display: flex;
 `;
 
@@ -18,7 +37,11 @@ const BreakLine = styled.div`
       width: 40%;
       height: 2px; /* Set the height of the separate line */
       background-color: rgb(255, 255, 255); /* Color of the separate line */
-      z-index: 1;
+      display: flex;
+`;
+
+const ButtonContainer =styled.div`
+        background-color: rgba(0, 0, 0, 0); /* Set a transparent background color */
 `;
 
 const HomeButtonRight = styled.button`
@@ -51,12 +74,17 @@ const HomeButtonLeft = styled.button`
 const Home = () => {
   return (
     <Section>
+      <BackgroundImageContainer>
+        <Navbar />
         <Title>Your Future website awaits</Title>
         <BreakLine />
-        <HomeButtonRight>Button</HomeButtonRight>
-        <HomeButtonLeft>Button</HomeButtonLeft>
+        <ButtonContainer>
+           <HomeButtonRight>Button</HomeButtonRight>
+           <HomeButtonLeft>Button</HomeButtonLeft>
+        </ButtonContainer>
+      </BackgroundImageContainer>
     </Section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -8,8 +8,7 @@ import Home from './Pages/Home';
 const App = () => {
   return (
     <div>
-      <Navbar />
-         <Home />
+      <Home />
       <Footer />
     </div>
   )

@@ -4,10 +4,10 @@ import styled from 'styled-components';
 const FooterContainer = styled.div`
         bottom: 0;
         position: absolute;
-        margin-bottom: 10px; 
+        padding: 10px;
         margin-left: 50px;
         background-color: #041427;
-        width: 97%;
+        width: 96%;
 `;
 
 const Footer = () => {
