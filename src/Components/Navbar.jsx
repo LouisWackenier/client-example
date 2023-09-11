@@ -1,4 +1,6 @@
+
 //STYLED COMPONENTS
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const NavbarContainer = styled.div`
@@ -25,9 +27,15 @@ const NavbarButton = styled.div`
 const Navbar = () => {
   return (
     <NavbarContainer>
-             <NavbarButton>Home</NavbarButton>
+            <Link to="/" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
+              <NavbarButton>Home</NavbarButton>
+            </Link>
+            <Link to="Blog" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
              <NavbarButton>Blog</NavbarButton>
-             <NavbarButton>Shop</NavbarButton>
+            </Link>
+            <Link to="Shop" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
+              <NavbarButton>Shop</NavbarButton>
+             </Link>
     </NavbarContainer>
   )
 }
