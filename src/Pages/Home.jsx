@@ -30,6 +30,11 @@ const Title = styled.div`
      align-items: center;
      background-color: rgba(0, 0, 0, 0); /* Set a transparent background color */
      display: flex;
+     text-shadow: 
+     -1px -3px 0 #000, /* Top-left */
+      1px -3px 0 #000,  /* Top-right */
+      -1px 3px 0 #000,  /* Bottom-left */
+       1px 3px 0 #000;   /* Bottom-right */
 `;
 
 const BreakLine = styled.div`
@@ -52,6 +57,7 @@ const HomeButtonRight = styled.button`
       border-radius: 7px;
       letter-spacing: 5px;
       cursor: pointer;
+      background-color: purple;
 
       font-size: larger;
       height: 45px;
@@ -65,6 +71,7 @@ const HomeButtonLeft = styled.button`
       border-radius: 7px;
       letter-spacing: 5px;
       cursor: pointer;
+      background-color: purple;
 
       font-size: larger;
       height: 45px;
