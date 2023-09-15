@@ -1,22 +1,20 @@
 // STYLED COMPONENTS
 import styled from 'styled-components';
 
-//COMPONENTS
-import Navbar from '../Components/Navbar';
-
 import imgBackground from '../assets/Background_Image.png';
 
 const Section = styled.div`
-  height: 100vh; /* Use 100vh to make sure it covers the entire viewport height */
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Align content at the top of the container */
 `;
 
 const BackgroundImageContainer = styled.div`
-    flex: 1; /* Expand to fill the remaining vertical space */
+    height: 100%;
+    width: 100%;
     background-image: url(${imgBackground});
-    background-size: cover; /* Adjust the image size to cover the container */
+    background-size: cover; 
     background-position: center; /* Center the background image */
     display: flex;
     flex-direction: column;
@@ -82,7 +80,6 @@ const Home = () => {
   return (
     <Section>
       <BackgroundImageContainer>
-        <Navbar />
         <Title>Your Future website awaits</Title>
         <BreakLine />
         <ButtonContainer>
