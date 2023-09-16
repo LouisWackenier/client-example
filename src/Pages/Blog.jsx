@@ -20,9 +20,17 @@ const BreakLine = styled.div`
       background-color: rgba(255, 255, 255, 0.5); /* Color of the separate line */
 `;
 
-const MainContainer = styled.div`
-    margin-top: 10%;
-    display: flex;
+
+const BlogPost = styled.div`
+     margin-top: 3%;
+`;
+
+const BlogPostTitle = styled.h2`
+     margin-left: 45%;
+`;
+
+const BlogPostSub = styled.h4`
+     margin-left: 40%;
 `;
 
 const Blog = () => {
@@ -33,9 +41,11 @@ const Blog = () => {
          <TitleSub>On this page you can run your own blog posts</TitleSub>
          <BreakLine />
       </ContainerTitle>
-      <MainContainer>
-           
-      </MainContainer>
+           <BlogPost>
+               <BlogPostTitle>Blog Post</BlogPostTitle>
+               <BlogPostSub>Blog post context and some random text.
+               </BlogPostSub>
+           </BlogPost>
     </div>
   )
 }
