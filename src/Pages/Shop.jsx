@@ -20,11 +20,12 @@ const Breakline = styled.div`
 `;
 
 const ShopSection = styled.div`
-    
+     margin-left: 15%;
 `;
 
 const Shopcontainer = styled.div`
-    
+     display: inline-block;
+     padding: 100px;
 `;
 
 const ShopItemText = styled.div`
@@ -45,6 +46,9 @@ const Shop = () => {
                In this section you can add and sell your products
          </ContainerTitleSub>
          <Breakline />
+
+
+         {/* Shop Section */}
          <ShopSection>
             {/*Shop Item 1*/}
              <Shopcontainer>
@@ -56,7 +60,7 @@ const Shop = () => {
                  <ShopItemText>Shop Item 2</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
              </Shopcontainer>
-            {/*Shop Item 2*/}
+            {/*Shop Item 3*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 3</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
