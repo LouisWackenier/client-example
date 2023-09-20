@@ -36,6 +36,10 @@ const ShopItemParagraph = styled.div`
 
 `;
 
+const BuyButton = styled.div`
+
+`;
+
 const ItemImg = styled.div``;
 
 const Shop = () => {
@@ -63,6 +67,21 @@ const Shop = () => {
             {/*Shop Item 3*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 3</ShopItemText>
+                 <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+             </Shopcontainer>
+             {/*Shop Item 4*/}
+             <Shopcontainer>
+                 <ShopItemText>Shop Item 4</ShopItemText>
+                 <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+             </Shopcontainer>
+             {/*Shop Item 5*/}
+             <Shopcontainer>
+                 <ShopItemText>Shop Item 5</ShopItemText>
+                 <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+             </Shopcontainer>
+             {/*Shop Item 6*/}
+             <Shopcontainer>
+                 <ShopItemText>Shop Item 6</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
              </Shopcontainer>
          </ShopSection>
