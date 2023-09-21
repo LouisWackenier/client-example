@@ -36,8 +36,12 @@ const ShopItemParagraph = styled.div`
 
 `;
 
-const BuyButton = styled.div`
-
+const BuyButton = styled.button`
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;     
 `;
 
 const ItemImg = styled.div``;
@@ -51,38 +55,43 @@ const Shop = () => {
          </ContainerTitleSub>
          <Breakline />
 
-
          {/* Shop Section */}
          <ShopSection>
             {/*Shop Item 1*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 1</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
             {/*Shop Item 2*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 2</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
             {/*Shop Item 3*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 3</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
              {/*Shop Item 4*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 4</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
              {/*Shop Item 5*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 5</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
              {/*Shop Item 6*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 6</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
          </ShopSection>
     </ContainerTitle>
