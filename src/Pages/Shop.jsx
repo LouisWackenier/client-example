@@ -29,7 +29,7 @@ const Shopcontainer = styled.div`
 `;
 
 const ShopItemText = styled.div`
-      
+    margin-left: 0%;
 `;
 
 const ShopItemParagraph = styled.div`
@@ -44,6 +44,18 @@ const BuyButton = styled.button`
     font-size: 15px;     
 `;
 
+const PopularItems = styled.div`
+    margin-top: 20px;
+    margin-left: 35%;
+    text-decoration: underline;
+`;
+
+const AllItems = styled.div`
+    margin-top: 20px;
+    margin-left: 35%;
+    text-decoration: underline;
+`;
+
 const ItemImg = styled.div``;
 
 const Shop = () => {
@@ -54,9 +66,10 @@ const Shop = () => {
                In this section you can add and sell your products
          </ContainerTitleSub>
          <Breakline />
-
          {/* Shop Section */}
+         
          <ShopSection>
+            <PopularItems>Popular Items</PopularItems>
             {/*Shop Item 1*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 1</ShopItemText>
@@ -69,7 +82,27 @@ const Shop = () => {
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
                  <BuyButton>Buy Now</BuyButton>
              </Shopcontainer>
-            {/*Shop Item 3*/}
+             {/*Shop Item 3*/}
+             <Shopcontainer>
+                 <ShopItemText>Shop Item 3</ShopItemText>
+                 <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
+             </Shopcontainer>
+
+             <AllItems>Rest of the items</AllItems>
+            {/*Shop Item 1*/}
+             <Shopcontainer>
+                 <ShopItemText>Shop Item 1</ShopItemText>
+                 <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
+             </Shopcontainer>
+             {/*Shop Item 2*/}
+             <Shopcontainer>
+                 <ShopItemText>Shop Item 2</ShopItemText>
+                 <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
+                 <BuyButton>Buy Now</BuyButton>
+             </Shopcontainer>
+             {/*Shop Item 3*/}
              <Shopcontainer>
                  <ShopItemText>Shop Item 3</ShopItemText>
                  <ShopItemParagraph>Lorem ipsum dolor sit amet.</ShopItemParagraph>
