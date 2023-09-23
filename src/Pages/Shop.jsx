@@ -7,10 +7,10 @@ const ContainerTitle = styled.div`
 `;
 
 const ContainerTitleText = styled.h1`
-      margin-left: 40%;
+      text-align: center;
 `;
 const ContainerTitleSub = styled.h4`
-      margin-left: 38%;
+      text-align: center;
 `;
 const Breakline = styled.div`
       margin-left: 37%;
@@ -30,6 +30,7 @@ const Shopcontainer = styled.div`
 
 const ShopItemText = styled.div`
     margin-left: 0%;
+    text-align: center;
 `;
 
 const ShopItemParagraph = styled.div`
