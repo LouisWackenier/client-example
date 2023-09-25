@@ -83,8 +83,8 @@ const Home = () => {
         <Title>Your Future website awaits</Title>
         <BreakLine />
         <ButtonContainer>
-           <HomeButtonRight>Button</HomeButtonRight>
-           <HomeButtonLeft>Button</HomeButtonLeft>
+           <HomeButtonRight>Portfolio</HomeButtonRight>
+           <HomeButtonLeft>About me</HomeButtonLeft>
         </ButtonContainer>
       </BackgroundImageContainer>
     </Section>
