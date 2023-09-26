@@ -22,15 +22,15 @@ const BreakLine = styled.div`
 
 
 const BlogPost = styled.div`
+     align-items: center;
      margin-top: 3%;
+     text-align: center;
 `;
 
 const BlogPostTitle = styled.h2`
-     margin-left: 45%;
 `;
 
 const BlogPostSub = styled.h4`
-     margin-left: 40%;
 `;
 
 const Blog = () => {
@@ -41,9 +41,32 @@ const Blog = () => {
          <TitleSub>On this page you can run your own blog posts</TitleSub>
          <BreakLine />
       </ContainerTitle>
+          {/*First Blog post*/}
            <BlogPost>
-               <BlogPostTitle>Blog Post</BlogPostTitle>
-               <BlogPostSub>Blog post context and some random text.
+               <BlogPostTitle>Lorem.</BlogPostTitle>
+               <BlogPostSub>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero, quod incidunt eaque doloribus qui?
+               </BlogPostSub>
+           </BlogPost>
+          {/*Second Blog post*/}
+           <BlogPost>
+               <BlogPostTitle>Lorem ipsum dolor sit.</BlogPostTitle>
+               <BlogPostSub>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, dolor.
+               </BlogPostSub>
+           </BlogPost>
+          {/*Third Blog post*/}
+           <BlogPost>
+               <BlogPostTitle>Lorem, ipsum dolor.</BlogPostTitle>
+               <BlogPostSub>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               </BlogPostSub>
+           </BlogPost>
+           <BlogPost>
+               <BlogPostTitle>Lorem ipsum dolor sit amet consectetur.</BlogPostTitle>
+               <BlogPostSub>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+               </BlogPostSub>
+           </BlogPost>
+           <BlogPost>
+               <BlogPostTitle>Lorem, ipsum dolor.</BlogPostTitle>
+               <BlogPostSub>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                </BlogPostSub>
            </BlogPost>
     </div>
