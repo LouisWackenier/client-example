@@ -43,6 +43,7 @@ const BuyButton = styled.button`
     padding: 10px;
     border-radius: 7px;
     font-size: 15px;     
+    background-color: purple;
 `;
 
 const PopularItems = styled.div`
